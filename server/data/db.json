@@ -1,0 +1,10 @@
+{
+  "homes": [
+    {"id":"home-1","code":"SA-KER-001-0001","name":"Green Valley House","owner":"Anjali Menon","locality":"Kizhakkambalam","district":"Ernakulam","state":"Kerala","postalCode":"683562","description":"Blue-roofed house beside the community well","landmarks":"Community well; 200 m east of the primary school","directions":"Take the narrow road beside the primary school and turn left at the well.","lat":10.0568,"lng":76.3992,"createdAt":"2026-10-28T10:00:00.000Z","points":[{"id":"pt-1","name":"Main entrance","type":"ground-drop","lat":10.0568,"lng":76.3992,"availability":"available","obstacle":"clear","restricted":false},{"id":"pt-2","name":"Rooftop drop zone","type":"rooftop","lat":10.05692,"lng":76.39928,"availability":"available","obstacle":"unknown","restricted":false},{"id":"pt-3","name":"Backyard parcel area","type":"designated-drop","lat":10.05662,"lng":76.39942,"availability":"unavailable","obstacle":"obstructed","restricted":false}]},
+    {"id":"home-2","code":"SA-KER-001-0002","name":"Riverbend Cottage","owner":"Ravi Kumar","locality":"Kolenchery","district":"Ernakulam","state":"Kerala","postalCode":"682311","description":"Single-storey house near the canal bridge","landmarks":"Canal bridge; blue bus shelter","directions":"From the bus shelter, follow the canal road for 150 m.","lat":9.9817,"lng":76.4711,"createdAt":"2026-10-29T09:30:00.000Z","points":[{"id":"pt-4","name":"Front porch","type":"ground-drop","lat":9.9817,"lng":76.4711,"availability":"available","obstacle":"clear","restricted":false},{"id":"pt-5","name":"Open courtyard","type":"designated-drop","lat":9.98182,"lng":76.47122,"availability":"available","obstacle":"clear","restricted":false}]}
+  ],
+  "deliveries": [
+    {"id":"del-1","code":"SA-KER-001-0001","homeId":"home-1","pointId":"pt-1","method":"ground","status":"Delivered","createdAt":"2026-10-30T11:00:00.000Z"}
+  ],
+  "reports": []
+}
